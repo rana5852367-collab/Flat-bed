@@ -1,0 +1,15 @@
+@media (max-width: 760px) {
+  .inner-nav,
+  .contact-nav {
+    display: flex !important;
+    position: static;
+    padding: 0;
+    gap: 12px;
+    box-shadow: none;
+    font-size: 10px;
+  }
+
+  .inner-nav a:first-child { display: none; }
+  .inner-nav a:nth-child(2) { display: block; }
+  .contact-nav a:nth-child(2) { display: none; }
+}
