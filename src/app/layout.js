@@ -1,5 +1,6 @@
 import "./globals.css";
 import "./overrides.css";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata = {
   title: "سطحة القنفذة | نقل وسحب سيارات على مدار الساعة",
@@ -26,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body>{children}</body>
+      <body>{children}<WhatsAppButton/></body>
     </html>
   );
 }
